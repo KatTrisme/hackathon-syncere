@@ -1,0 +1,66 @@
+{
+  "name": "react-web-starter",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Template for a react web application,",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint .",
+    "prettify": "prettier --write .",
+    "serve": "webpack serve --entry-reset --entry ./src/main.js --config webpack.dev.js",
+    "build-dev": "webpack --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/katminds-templates/node-react-web-starter.git"
+  },
+  "keywords": [
+    "template",
+    "node",
+    "react",
+    "web",
+    "web-app"
+  ],
+  "author": "KatMinds",
+  "license": "KatMinds",
+  "bugs": {
+    "url": "https://github.com/katminds-templates/node-react-web-starter/issues"
+  },
+  "homepage": "https://github.com/katminds-templates/node-react-web-starter#readme",
+  "devDependencies": {
+    "@babel/core": "^7.17.2",
+    "@babel/eslint-parser": "^7.17.0",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "babel-loader": "^9.1.0",
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^6.6.0",
+    "eslint": "^8.9.0",
+    "eslint-plugin-react": "^7.28.0",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.5.3",
+    "prettier": "^2.5.1",
+    "prop-types": "^15.8.1",
+    "react-dom": "^17.0.2",
+    "sass": "^1.49.7",
+    "sass-loader": "^13.2.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.68.0",
+    "webpack-cli": "^5.0.0",
+    "webpack-dev-server": "^4.7.4",
+    "webpack-merge": "^5.8.0"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@mui/icons-material": "^5.11.11",
+    "@mui/material": "^5.11.13",
+    "react": "^17.0.2",
+    "react-qr-scanner": "^1.0.0-alpha.11",
+    "react-router": "^6.6.0",
+    "react-router-dom": "^6.6.0"
+  }
+}

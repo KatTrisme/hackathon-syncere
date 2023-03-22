@@ -1,0 +1,22 @@
+# Docker
+docker-compose*.yml
+.dockerignore
+Dockerfile
+
+# Common
+.gitignore
+README.md
+
+# Node
+node_modules
+package-lock.json
+
+# Webpack
+dist
+
+# JetBrains
+.idea
+
+
+# Pre-commit
+.pre-commit-config.yaml

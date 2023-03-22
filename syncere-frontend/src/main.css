@@ -1,0 +1,22 @@
+:root {
+    box-sizing: border-box;
+    font-size: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+*,
+::before,
+::after {
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    min-width: 310px;
+    height: 100%;
+}

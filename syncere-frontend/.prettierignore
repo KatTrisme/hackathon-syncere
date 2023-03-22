@@ -1,0 +1,21 @@
+# JS
+node_modules
+package.json
+package-lock.json
+
+# Webpack
+dist
+
+# Babel
+.babelrc
+
+# Git
+.gitignore
+*.md
+
+# Prettier
+.prettierignore
+.prettierrc
+
+# Pre-commit
+.pre-commit-config.yaml

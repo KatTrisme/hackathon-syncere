@@ -1,0 +1,14 @@
+{
+  "name": "syncere",
+  "author": "katminds",
+  "private": true,
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "icon-sdk-js": "1.2.1",
+    "mongodb": "^5.1.0",
+    "mongoose": "^7.0.0",
+    "morgan": "^1.10.0",
+    "qrcode": "^1.5.1"
+  }
+}

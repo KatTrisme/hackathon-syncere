@@ -1,0 +1,19 @@
+version: "3.9"
+
+services:
+  syncere-frontend:
+    build: ./syncere-frontend
+    ports:
+      - "80:80"
+
+  syncere-db:
+    image: mongo
+    restart: always
+    ports:
+      - "27017:27017"
+
+  syncere-backend:
+    build: ./syncere-node
+    restart: always
+    ports:
+      - "3000:3000"
